@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./Css/style.css">
+    <title>2048 Game</title>
+</head>
+<body>
+    <div>
+        <h2 class="Heading">2048 Game</h2>
+        <p>Please Enter the size of Grid(For Better UI experience the grid can only be expanded between 3 to 8)</p>
+        <input type="text" id="gridLength" placeholder="Enter text" value="4">
+        <button onclick="getUserInput()" id="displays">Generate Board</button>
+        <div class="space"></div>
+        <p id="DoNotShowGrid"></p>
+        <h2>Score: <span id="score">0</span></h2>
+        <div id="board">
+        </div>
+    </div>
+
+</body>
+
+</html>
